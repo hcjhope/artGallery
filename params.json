@@ -1,6 +1,0 @@
-{
-  "name": "Artgallery",
-  "tagline": "CSS3+JS 实现超炫的散列画廊特效",
-  "body": "### 调用方法\r\n$('.artGallery').artGallery({\r\n\tdatas: datas\r\n});\r\n\r\n### 参数说明\r\n\t\t1、必传参数\r\n\t\tdatas: 图片及文字资料数据\r\n\r\n\t\t2、可选参数\r\n\t\trange: 规则了图片显示的范围\r\n\t\t\ttop: \r\n\t\t\t\tmin: 图片距上边的最小值\r\n\t\t\t\tmax: 图片距上边的最大值\r\n\t\t\tleft: \r\n\t\t\t\tmin: 图片距左边的最小值\r\n\t\t\t\tmax: 图片距左边的最大值\r\n\t\t\tdeg: \r\n\t\t\t\tmin: 图片角度的最小值\r\n\t\t\t\tmax: 图片角度的最大值\r\n\t\tindex: 根据传入的数字显示第几张图片，从下标0算起（如果传入不在范围内的数字则随机），默认随机\r\n\t\tauto: \r\n\t\t\ttrue: 根据当前索引自动播放\r\n\t\t\tfalse: 不自动播放\r\n\t\tspeed: 播放的速度\r\n\t\tmask: \r\n\t\t\ttrue: 所有背景图不可点，并增加蒙版层\r\n\t\t\tfalse: 所有背景图可点，并设置为焦点图\r\n\t\tanimateShow:\r\n\t\t\tdeal: 类似发牌动画\r\n\t\t\tdisperse：从中间同时分散动画\r\n\t\t\tpirouette: 原地旋转动画\r\n\t\t\tredistribute: 重新分配动画\r\n\t\t\tfalse: 无动画直接展现",
-  "note": "Don't delete this file! It's used internally to help with page regeneration."
-}
